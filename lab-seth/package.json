@@ -1,0 +1,23 @@
+{
+  "name": "41-socket-io",
+  "version": "1.0.0",
+  "description": "socket io html chat room",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SethDonohue/41-Socket-IO.git"
+  },
+  "author": "Seth Donohue",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SethDonohue/41-Socket-IO/issues"
+  },
+  "homepage": "https://github.com/SethDonohue/41-Socket-IO#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "socket.io": "^2.0.4"
+  }
+}

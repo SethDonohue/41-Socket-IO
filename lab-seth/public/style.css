@@ -1,0 +1,29 @@
+body {
+  position: relative;
+}
+
+form {
+  display: inline-block;
+}
+
+#players {
+  display: inline-block;
+}
+
+#players li {
+  display: inline-block;
+}
+
+.cursor {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.pixel {
+  background-color: black;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  cursor: pointer;
+}
