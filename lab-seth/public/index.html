@@ -2,18 +2,34 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Socket Demo</title>
-    <link href="/style.css" rel="stylesheet">
-  </head>
-  <body>
-    <form id="submit-player-name">
-      <input id="username-input" type="text"></input>
-      <button type="submit">choose name</button>
-    </form>
-    <ul id="players"></ul>
-  </body>
-  <script src="/socket.io/socket.io.js"></script>
-  <script src="/js/models/cursor.js"></script>
-  <script src="/js/models/pixel.js"></script>
-  <script src="/js/main.js"></script>
-</html>
+    <meta name='viewport' content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link href="/style.css" rel="stylesheet">
+      <title>Socket IO Chat Room</title>
+      </head>
+      
+      <body>
+        <h1>CHATTING SOCKETS!?</h1>
+        <p>Do the things and stuff to chat and things!</p>
+      
+        <span>Send a Message: </span>
+        <form id="send-message-form">
+          <input id="message-input" />
+          <button type="submit">send</button>
+        </form>
+
+        <br></br>
+
+        <span>Change Your Username: </span>
+        <form id="change-username-form">
+          <input id="username-input" />
+          <button type="submit">send</button>
+        </form>
+        <br></br>
+      
+        <div id="messages"></div>
+      </body>
+      <script src="/socket.io/socket.io.js"></script>
+      <script src='/src/main.js'></script>
+      
+      </html>
