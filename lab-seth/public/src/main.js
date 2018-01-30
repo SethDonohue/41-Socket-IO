@@ -8,29 +8,9 @@ let messageInput = document.getElementById('message-input')
 let usernameInput = document.getElementById('username-input')
 let messagesContainer = document.getElementById('messages')
 
-
-class Message {
-  constructor(username, message, timestamp = (new Date()).toLocaleTimeString()) {
-    this.username = username
-    this.message = message
-    this.timestamp = timestamp
-  }
-
-  render(parentString) {
-    let parentElement = document.getElementById(parentString)
-    let div = document.createElement('div')
-    div.classList.add('message')
-    div.textContent = `${this.timestamp} ${this.username}: ${this.message}`
-
-    parentElement.appendChild(div)
-  }
-}
-
-
 let tempUsername = null
 socket.username = `annonymous${Math.floor(Math.random()*1000)}`
 console.log('Your USERNAME:', socket.username)
-
 
 sendMessageForm.addEventListener('submit', (event) => {
   event.preventDefault()
