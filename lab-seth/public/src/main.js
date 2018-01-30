@@ -29,7 +29,6 @@ class Message {
 
 let tempUsername = null
 socket.username = `annonymous${Math.floor(Math.random()*1000)}`
-// let message = null
 console.log('Your USERNAME:', socket.username)
 
 
