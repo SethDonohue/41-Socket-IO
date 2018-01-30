@@ -64,7 +64,7 @@ socket.on('username-change', (data) => {
   console.log('Username Changed:', data)
 
   let div = document.createElement('div')
-  div.innerHTML = `${tempUsername} is now known as: ${data.username}`
+  div.textContent = `${tempUsername} is now known as: ${data.username}`
   
   messagesContainer.appendChild(div)
 })
