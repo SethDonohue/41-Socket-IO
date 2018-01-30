@@ -1,0 +1,20 @@
+$font-stack: Helvetica, sans-serif;
+// $font-form: Times
+$primary-color: #777;
+$secondary-color: #999;
+$primary-text-color: #333;
+$gutter: 2.5%;
+
+body {
+  position: relative;
+  font: 100% $font-stack;
+  color: $primary-text-color;
+  background-color: $primary-color;
+}
+
+form {
+  display: inline-block;
+  font: $font-stack;
+  background-color: $secondary-color;
+  padding: $gutter;
+}

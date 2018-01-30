@@ -1,29 +1,13 @@
 body {
   position: relative;
-}
+  font: 100% Helvetica, sans-serif;
+  color: #333;
+  background-color: #777; }
 
 form {
   display: inline-block;
-}
+  font: Helvetica, sans-serif;
+  background-color: #999;
+  padding: 2.5%; }
 
-#players {
-  display: inline-block;
-}
-
-#players li {
-  display: inline-block;
-}
-
-.cursor {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-}
-
-.pixel {
-  background-color: black;
-  width: 1px;
-  height: 1px;
-  position: absolute;
-  cursor: pointer;
-}
+/*# sourceMappingURL=style.css.map */
